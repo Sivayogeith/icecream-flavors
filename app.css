@@ -1,0 +1,68 @@
+body {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-image: radial-gradient(
+    circle at var(--x, 100px) var(--y, 100px),
+    #97f6c8 0%,
+    transparent 40%
+  );
+}
+
+button {
+  padding: 1rem;
+  background-color: transparent;
+  border: 2px solid #30ff9b;
+}
+
+button:hover {
+  background-color: #30ff9b;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 93vh;
+}
+
+.answer {
+  font-size: large;
+}
+
+li {
+  font-size: larger;
+}
+
+li:hover {
+    font-size: x-large;
+}
+
+li.first {
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#flavor {
+  font-size: larger;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+    color: #2fb172
+}
+
+nav a {
+    font-size: larger;
+}
